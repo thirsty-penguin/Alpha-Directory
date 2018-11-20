@@ -8,7 +8,7 @@ Usage:
   > If this file does not exist (or is empty) you can run "fixDB.py" and create one user and the neccessary file. 
 
 Notes:
-######################################
+
 TO DO: 
 - consolidate delete function somehow
 - delete function loops an extra time for some reason
@@ -20,5 +20,5 @@ NEEDED FEATURES:
 - Search by first/last name
 - Exit funtion to be able to exit entire program from any where
 - when exiting from search function, needs to go to main menu and not try to quit the program
-######################################
+
 
