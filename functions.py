@@ -88,9 +88,9 @@ def load_userdb(): #loads pickled database into file
 def main(db):
 	print ("\n***** ALPHA DIRECTORY *****")
 	print ("--- Actions ---")
-	question = input("Enter 's' for Search \nEnter 'c' to create user(s) \
-					 \nEnter 'd' to delete user(s) \nEnter 'q' to quit program \
-					 \nOption: ")
+	question = input("Enter 's' for Search \nEnter 'c' to create user(s)\
+			  \nEnter 'd' to delete user(s) \nEnter 'q' to quit program \
+			  \nOption: ")
 	if question == 'c': #Create Users
 		users_needed = int(input("\nEnter number of users that you need to create: "))
 		create_user(db, users_needed)
